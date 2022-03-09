@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+
+    <EditText
+        android:id="@+id/bookNameET_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="5dp"
+        android:hint="Book Name"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/authorNameET_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="5dp"
+        android:hint="Author Name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/releaseYearET_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="5dp"
+        android:hint="Release Year"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/pageNumberEt_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="5dp"
+        android:hint="Pages Number"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/categoryIdNumberEt_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="5dp"
+        android:hint="Category ID  "
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/UpdateBTN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Update" />
+
+
+</LinearLayout>
